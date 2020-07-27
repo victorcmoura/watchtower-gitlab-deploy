@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Watchtower script loaded"
+
+python3 /watchtower-client.py \
+--hostname $WATCHTOWER_API_HOSTNAME \
+--token $WATCHTOWER_API_TOKEN 
